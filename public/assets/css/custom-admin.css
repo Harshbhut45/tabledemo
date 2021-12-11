@@ -1,0 +1,47 @@
+.zoom {
+    transition: 0.4s;
+}
+
+.zoom:hover {
+    transform: scale(3, 3);
+}
+
+#client-social-account-tabs a.nav-link.active i.fa-facebook-official {
+    color: #3b5998;
+    font-size: 20px;
+}
+
+#client-social-account-tabs a.nav-link.active i.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+#client-social-account-tabs a.nav-link.active i.fa-twitter {
+    color: #1DA1F2;
+    font-size: 20px;
+}
+
+#client-social-account-tabs a.nav-link.active i.fa-linkedin {
+    color: #1666C5;
+    font-size: 20px;
+}
+
+#client-social-account-tabs a.nav-link.active i.fa-pinterest {
+    color: #E60023;
+    font-size: 20px;
+}
+
+.btn-alt-instagram, .btn-alt-instagram:active {
+    color: #af1310;
+    background-color: #fde8e8 !important;
+    border-color: #fde8e8;
+}
+
+.btn-alt-instagram:hover, .btn-alt-instagram:focus {
+    color: #af1310 !important;
+    background-color: #fbd1d0 !important;
+}
